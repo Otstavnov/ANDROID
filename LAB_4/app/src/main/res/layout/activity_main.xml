@@ -1,0 +1,54 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:gravity="center"
+    android:background="#feae62">
+
+
+    <Button
+        android:id="@+id/sw_lan"
+        android:layout_width="90dp"
+        android:layout_height="48dp"
+        android:text="Ru/En"
+        android:textStyle="bold"
+        />
+
+    <EditText
+        android:id="@+id/ed_log"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:background="@color/back"
+        android:gravity="center"
+        android:hint="@string/txt_name"
+        android:textColor="@color/txt_light"
+        android:textStyle="bold" />
+
+    <EditText
+        android:id="@+id/ed_pass"
+        android:layout_width="250dp"
+        android:layout_height="48dp"
+        android:layout_margin="10dp"
+        android:background="@color/back"
+        android:gravity="center"
+        android:hint="@string/ed_pass"
+        android:textColor="@color/txt_light"
+        android:textStyle="bold" />
+
+
+    <Button
+        android:id="@+id/singIn"
+        android:layout_width="150dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#e77718"
+        android:text="Войти"
+        android:textColor="@color/txt_light"
+        android:textStyle="bold" />
+
+
+</LinearLayout>
+
